@@ -209,7 +209,8 @@ nav{
   position: relative;
   top: 60vh;
   left: 10vw;
-  width: 80svw; 
+  width: 80svw;
+  z-index: -40;
  
 }
 #paginasweb h2{
@@ -221,11 +222,12 @@ nav{
 .box{
   position: relative;
   top: 20vh;
-  left: 10vw;
+  left: 20vw;
   height: 40vh;
   width:35vw;
   transform-style: preserve-3d;
   animation: animate 30s linear infinite;
+  
 }
 
 @keyframes animate {
@@ -260,13 +262,17 @@ nav{
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 10px 10px #c5c2c2;
+  z-index: -20;
+  box-shadow: 0 0 80px red;
 }
 
 #Cotiza{
   position: relative;
-  top: 30vh;
-  justify-self: center;
+  top: 35vh;
+  left: 30vw;
   text-decoration: none;
+  color: azure;
   font-size: 3rem;
+
 
 }
